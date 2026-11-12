@@ -1,0 +1,15 @@
+return {
+    ["Guide & Explorer"]               = { fr = "Le guide et l'explorateur", es = "El guía y el explorador", de = "Lotse und Entdecker" },
+    ["Two readers, one maze: the guide has the map, the explorer is lost inside. Talk your way to the exit."] = { fr = "Deux liseuses, un labyrinthe : le guide a le plan, l'explorateur est perdu dedans. Trouvez la sortie en vous parlant.", es = "Dos lectores, un laberinto: el guía tiene el plano, el explorador está perdido dentro. Encuentren la salida hablando.", de = "Zwei Reader, ein Labyrinth: Der Lotse hat den Plan, der Entdecker ist darin verloren. Findet den Ausgang im Gespräch." },
+    ["Rub out the pencil marks"]       = { fr = "Effacer les marques au crayon", es = "Borrar las marcas a lápiz", de = "Bleistiftmarken löschen" },
+    ["Find the explorer, then lead the way."] = { fr = "Trouvez l'explorateur, puis guidez-le.", es = "Encuentre al explorador y guíelo.", de = "Finde den Entdecker und führe ihn." },
+    ["Out in %1 steps! The shortest way took %2."] = { fr = "Sorti en %1 pas ! Le chemin le plus court en faisait %2.", es = "¡Fuera en %1 pasos! El camino más corto tenía %2.", de = "Draußen nach %1 Schritten! Der kürzeste Weg hatte %2." },
+    ["Steps walked: %1"]               = { fr = "Pas : %1", es = "Pasos: %1", de = "Schritte: %1" },
+    ["Key: in your pocket"]            = { fr = "Clé : dans votre poche", es = "Llave: en el bolsillo", de = "Schlüssel: in der Tasche" },
+    ["Key: not found yet"]             = { fr = "Clé : pas encore trouvée", es = "Llave: aún no encontrada", de = "Schlüssel: noch nicht gefunden" },
+    ["A wall blocks the way."]         = { fr = "Un mur bloque le passage.", es = "Un muro corta el paso.", de = "Eine Wand versperrt den Weg." },
+    ["You picked up the key! Now find the door."] = { fr = "Vous avez ramassé la clé ! Trouvez maintenant la porte.", es = "¡Ha cogido la llave! Ahora busque la puerta.", de = "Du hast den Schlüssel! Jetzt finde die Tür." },
+    ["The door is locked: find the key first."] = { fr = "La porte est fermée : trouvez d'abord la clé.", es = "La puerta está cerrada: busque primero la llave.", de = "Die Tür ist verschlossen: Finde zuerst den Schlüssel." },
+    ["Guide (the map)"]                = { fr = "Guide (le plan)", es = "Guía (el plano)", de = "Lotse (der Plan)" },
+    ["Explorer (in the maze)"]         = { fr = "Explorateur (dans le labyrinthe)", es = "Explorador (en el laberinto)", de = "Entdecker (im Labyrinth)" },
+}

@@ -1,0 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2026-11-10
+
+### Added
+- First release: a cooperative maze game for two players with a reader
+  each. Both readers build the same maze from the game code; the guide sees
+  the whole map (walls, landmarks, key, door), the explorer only the cells
+  around them. The explorer describes, the guide leads; the explorer's
+  reader counts the steps against the shortest way.
+- Easy 7×7 (the explorer sees two cells around), Medium 9×9 and Hard 11×11
+  (one cell around); pencil marks on the guide's map; auto-save.
