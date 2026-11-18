@@ -191,7 +191,7 @@ function MazeScreen:onCellTapped(r, c)
     if b.role == "guide" then
         b:toggleMark(r, c)
         self:save()
-        self.view:refresh()
+        self.view:refresh(self)
         return
     end
     local d = b:dirTo(r, c)
@@ -207,7 +207,7 @@ function MazeScreen:onMove(d)
         return
     end
     self:save()
-    self.view:refresh()
+    self.view:refresh(self)
     if res == "key" then
         self:updateStatus()
         self:showMessage(_("You picked up the key! Now find the door."), 3)
@@ -225,7 +225,7 @@ end
 function MazeScreen:onClearMarks()
     self.board:clearMarks()
     self:save()
-    self.view:refresh()
+    self.view:refresh(self)
 end
 
 -- ---------------------------------------------------------------------------

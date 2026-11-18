@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2026-11-18
+
+### Fixed
+- The guide's pencil marks, and rubbing them out, show at once.
+
 ## [1.0.0] - 2026-11-10
 
 ### Added
